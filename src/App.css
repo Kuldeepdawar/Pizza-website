@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+  color: greenyellow;
+}
+
+.banner_text {
+  width: 500px;
+}
+.banner_text h3 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.banner_text h1 {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.banner_text p {
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar_text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 40%;
+  margin-top: 70px;
+}
+.logo img {
+  width: 190px;
+  margin-top: -50px;
+}
+
+.navbar_ui {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar_ui li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner_btn {
+  margin-top: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: rgb(121, 46, 46);
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+.btn-smart {
+  background: chocolate;
+}
+
+.about {
+  padding: 80px 0;
+}
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.about h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 18px;
+  color: darkblue;
+  font-weight: 300;
+}
+
+.about_btn {
+  margin-top: 35px;
+}
+
+.about_img {
+  width: 100%;
+  overflow: hidden;
+}
+.about_img img {
+  width: 100%;
+}
+
+.shop {
+  width: 100%;
+  background: url("https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg");
+  height: 450px;
+  background-attachment: fixed;
+}
+
+.shop_text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: darkblue;
+}
+.shop_text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  color: darkblue;
+}
+.shop_btn {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.clients {
+  width: 100%;
+  padding: 100px 0;
+  background: url("https://cdn5.vectorstock.com/i/1000x1000/20/09/pizza-border-with-black-background-vector-17672009.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(82, 35, 35);
+  background-attachment: fixed;
+}
+.client {
+  text-align: center;
+}
+.client h1 {
+  font-style: 45px;
+}
+
+.client p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+}
